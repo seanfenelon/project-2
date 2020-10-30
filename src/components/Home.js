@@ -60,12 +60,12 @@ const Home = () => {
 
 
     <section className="hero is-light is-medium heroHome ">
-      <div className="hero-body">
-        <div className="container main">
-          <h1 className="title">
-            THE MOVIE GURU
+      <div className="hero-bodytest">
+
+        <h1 className="title2">
+          THE MOVIE GURU
           </h1>
-        </div>
+
       </div>
     </section>
 
