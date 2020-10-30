@@ -51,13 +51,13 @@ const Home = () => {
 
   return <div className="has-background-dark">
     {/* <h1>The Movie Guru</h1> */}
-    
 
 
- 
-    
 
-  
+
+
+
+
 
     <section className="hero is-light is-medium heroHome ">
       <div className="hero-body">
@@ -69,29 +69,29 @@ const Home = () => {
       </div>
     </section>
 
-    
+
 
     <section className='HomeButtons'>
-    <h2>
-     <Link className="toSearch" to='/project-2/components/SearchResult'><button>Search Results</button></Link>
+      <h2>
+        <Link className="toSearch" to='/project-2/components/SearchResult'><button>Search Results</button></Link>
       </h2>
 
-    <h2>
-      <Link className="toGenre" to='/project-2/components/Genre'><button>Search By Genre</button></Link>
+      <h2>
+        <Link className="toGenre" to='/project-2/components/Genre'><button>Search By Genre</button></Link>
       </h2>
       <h2>
         <Link className="toByYear" to='/project-2/components/ByYear'><button>Search By Year</button></Link>
       </h2>
       <h2>
-      <Link className="toTop250" to='/project-2/components/Top250'><button>Top Grossing</button></Link>
-     </h2>
-    </section> 
+        <Link className="toTop250" to='/project-2/components/Top250'><button>Top Grossing</button></Link>
+      </h2>
+    </section>
     <footer className="footer has-background-dark">
 
-</footer>
-     </div>
+    </footer>
+  </div>
 
-   
+
 }
 
 
