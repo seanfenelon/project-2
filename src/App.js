@@ -23,7 +23,7 @@ const App = () => (
     <Navbar />
     <Switch>
 
-      <Route exact path="/" component={Home} />
+      <Route exact path="/project-2/" component={Home} />
       <Route exact path="/project-2/components/FilterResult" component={FilterResult} />
       <Route exact path="/project-2/components/Movie/:movieId" component={Movie} />
       <Route exact path="/project-2/components/SearchResult" component={SearchResult} />
