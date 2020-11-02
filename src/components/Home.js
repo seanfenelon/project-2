@@ -49,6 +49,7 @@ import axios from 'axios'
 const Home = () => {
 
 
+
   return <div className="has-background-dark">
     {/* <h1>The Movie Guru</h1> */}
 
@@ -72,18 +73,19 @@ const Home = () => {
 
 
     <section className='HomeButtons'>
+
       <h2>
-        <Link className="toSearch" to='/project-2/components/SearchResult'><button>Search Results</button></Link>
+        <Link className="toSearch" to='/project-2/components/SearchResult'><button className="MenuButton" >Search Results</button></Link>
       </h2>
 
       <h2>
-        <Link className="toGenre" to='/project-2/components/Genre'><button>Search By Genre</button></Link>
+        <Link className="toGenre" to='/project-2/components/Genre'><button className="MenuButton">Search By Genre</button></Link>
       </h2>
       <h2>
-        <Link className="toByYear" to='/project-2/components/ByYear'><button>Search By Year</button></Link>
+        <Link className="toByYear" to='/project-2/components/ByYear'><button className="MenuButton">Recent Releases</button></Link>
       </h2>
       <h2>
-        <Link className="toTop250" to='/project-2/components/Top250'><button>Top Grossing</button></Link>
+        <Link className="toTop250" to='/project-2/components/Top250'><button className="MenuButton">Top Grossing</button></Link>
       </h2>
     </section>
     <footer className="footer has-background-dark">

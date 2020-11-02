@@ -2,6 +2,20 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
+let today = new Date()
+const dd = String(today.getDate()).padStart(2, '0')
+const mm = String(today.getMonth() + 1).padStart(2, '0')
+const yyyy = today.getFullYear()
+today = yyyy + '-' + mm + '-' + dd
+
+let baseString = 'https://api.themoviedb.org/3/discover/movie?api_key=c2d70a0194571a28181621f60f9b11c4&language=en-US&sort_by=primary_release_date.desc&certification_country=US&include_adult=false&include_video=false&primary_release_date.lte=2020-10-28&with_original_language=en&page=1'
+
+
+let test1 = baseString.split(baseString.substring(224,234))
+baseString =  test1[0] + [today] + test1[1]
+
+console.log(baseString)
+
 const MovieCard = (props) => {
   const [inWishlist, HasBeenClicked] = useState('add')
   let fullPath = ''
@@ -35,10 +49,6 @@ const MovieCard = (props) => {
     </div>
   </section>
 }
-
-let baseString = 'https://api.themoviedb.org/3/discover/movie?api_key=c2d70a0194571a28181621f60f9b11c4&language=en-US&sort_by=primary_release_date.desc&certification_country=US&include_adult=false&include_video=false&primary_release_date.lte=2020-10-28&with_original_language=en&page=1'
-
-
 
 
 const ByYear = () => {
