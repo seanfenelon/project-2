@@ -28,11 +28,11 @@ We had decided to create a single place to find information for any movie, add t
 * Pagination
 
 ## Development:
-###Teamwork:
+### Teamwork:
 Having never worked on a team programming project, we had to find an effective way to communicate our ideas, and make sure we shared a similar vision for the final product. Using a whiteboard website was essential:
 ![](images/Whiteboard.png)
 
-###APIs and Filtering:
+### APIs and Filtering:
  We found an API that seemed perfect for our needs. tmdb (The Movie Database) had built in search filtering endpoints. The meant that with the proper code, we could modify the string of the fetch URL depending on user input (buttons in this case).
  The way a search filter worked was two folds.
 	 First we created a function that would tell us the appropriate base URL to modify for a call:
@@ -75,7 +75,7 @@ Now that we had a base string to modify, we needed the code to modify it based o
 
     }}>People</button>
 
-###The Watchlist:
+### The Watchlist:
 Most of the information we wanted could be fetched through the API, but to create a watchlist, we somehow had to carry information from one page to another without having our own backend. We implemented this by using local storage to store an array that would contain the ID number of every movie a user had added:
 
           {props.elem.release_date ?           
