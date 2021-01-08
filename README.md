@@ -6,7 +6,7 @@ The Movie Guru is a global index for both big budget and small indie films. Crea
 
 We had decided to create a single place to find information for any movie, add them to a watchlist, and get movie recomendations.
 
-Link: https://adwam12.github.io/project-2/
+Link: [Movie Guru](https://adwam12.github.io/project-2/)
 
 
 ## Project requirements:
