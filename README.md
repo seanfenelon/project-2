@@ -1,9 +1,13 @@
 # Movie Guru
+Made by [Sean Fenelon](https://github.com/seanfenelon) and [Adam Lee Osgood](https://github.com/adwam12)
 
 ## Overview:
 The Movie Guru is a global index for both big budget and small indie films. Created over a week and a half with a single partner for and during the General Assembly Immersive Software Engineering Course.
 
 We had decided to create a single place to find information for any movie, add them to a watchlist, and get movie recomendations.
+
+Link: https://adwam12.github.io/project-2/
+
 
 ## Project requirements:
 * Create React application
@@ -19,13 +23,7 @@ We had decided to create a single place to find information for any movie, add t
 * GitHub Pages
 * Git
 * React
-
-## Challenges:
-* Finding the right API
-* Working as a team
-* Watchlist feature
-* Splitting work
-* Pagination
+* The APi: https://www.themoviedb.org/documentation/api
 
 ## Development:
 ### Teamwork:
@@ -90,6 +88,21 @@ Most of the information we wanted could be fetched through the API, but to creat
             localStorage.setItem('MovieWishList', JSON.stringify(test))
           }}>{inWishlist}</button> : <h2></h2>}
 
+## Wins and Takeaways:
+* My partner and I both learned to effectively communicate ou ideas, and learned to code as a team.
+* Being able to format and paginate any results pulled from the API
+* Learning to work with React and components was very rewarding
+
+## Future features:
+* On the individual movie card, posters are stretched depending on screen size
+* Clean up the design
+
+## Challenges:
+* Finding the right API
+* Working as a team
+* Watchlist feature
+* Splitting work
+* Pagination
 
 ## Screenshots:
 ![](images/home.png)
